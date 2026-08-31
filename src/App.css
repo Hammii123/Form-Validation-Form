@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.form{
+  width: 90%;
+  max-width: 350px;
+  margin: 50px auto;
+  height: 500px;
+  border: 2px solid black;
+  padding: 30px;
+}
+
+.form label{
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.form input{
+  display: block;
+  text-align: left;
+  width: 90%;
+
+}
+
+.form ul{
+  display: block;
+  text-align: left;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
