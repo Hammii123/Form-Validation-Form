@@ -1,16 +1,46 @@
-# React + Vite
+# Form Validation App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based form validation application that demonstrates custom client-side validation using React state management and native JavaScript.
 
-Currently, two official plugins are available:
+The application validates user information in real time, including name, email, password strength, and password confirmation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- Controlled form inputs using React `useState`
+- Name validation
+- Maximum name length of 50 characters
+- Prevents numbers and special characters in the name
+- Custom email validation
+- Password strength validation
+- Minimum 8 characters
+- At least one uppercase letter
+- At least one lowercase letter
+- At least one number
+- At least one special character
+- ASCII-based password character validation
+- Real-time password requirement indicators
+- Confirm password validation
+- Save button disabled until the form is valid
+- Data stored using `localStorage`
+- Success message displayed after successful submission
+- Form automatically clears after successful submission
+- Form remains enabled for the next user
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+- React
+- JavaScript
+- CSS
+- HTML
+- React Hooks
+  - `useState`
+- Browser `localStorage`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+```text
+src/
+│
+├── App.jsx
+├── App.css
+└── main.jsx
